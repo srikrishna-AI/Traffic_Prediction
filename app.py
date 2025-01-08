@@ -7,7 +7,7 @@ import numpy as np
 import torch
 
 # Load YOLOv8 model
-model = YOLO('https://huggingface.co/Ultralytics/YOLOv8/resolve/main/yolov8l.pt?download=true')
+model = YOLO('https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8l.pt')
 
 # Helper function for real-time object detection
 def real_time_detection():
